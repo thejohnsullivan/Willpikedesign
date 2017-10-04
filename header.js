@@ -19,6 +19,7 @@ document.write('\
   width: 100%;\
   position: fixed;\
   opacity: .85;\
+  z-index: 99;\
 }\
 table {\
   height: 100%;\

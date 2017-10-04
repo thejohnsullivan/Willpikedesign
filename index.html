@@ -4,14 +4,22 @@
 <script src="header.js"></script>
 <img class='pic1' src="photos/Resumebg.jpg" width="100%" />
 <img src="photos/IMG_8592.jpg" width="100%" />
-<img class='txt' src="photos/Resumetxt.png" />
+<img id='txt' src="photos/Resumetxt.png" />
 </body>
 </html>
 <style>
-.txt {
+#txt {
   position: absolute;
   display: block;
-  top: 25%;
+  top: 250px;
   right: 0%;
 }
 </style>
+<script>
+window.onscroll = function() {scrolly()};
+var txtPos = document.getElementById("txt").style.top;
+function scrolly() {
+    txtPos = document.body.scrollTop * -1.5 + 250;
+    document.getElementById("txt").style.top = txtPos + "px";
+}
+</script>
