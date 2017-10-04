@@ -1,7 +1,7 @@
 <div class="header">
 <table>
-<td style="width:50%;"><div class="button"><b><a href="index.html">HOME</a></b></div></td>
-<td style="width:15%;"><div class="button"><b><a href="#">ABOUT ME</a></b></div></td>
+<td style="width:33%;"><div class="button"><b><a href="index.html">HOME</a></b></div></td>
+<td style="width:33%;"><div class="button"><b><a href="#">ABOUT ME</a></b></div></td>
 <td class="menu-wrapper">
   <div class="button"><b>GALLERIES</b></div>
   <div class="menu">
@@ -9,7 +9,6 @@
   <a class="menu-link" href="#">Coasters</a>
   </div>
 </td>
-<td style="width:15%;"><div class="button"><b>CONTACT</b></div></td>
 </table>
 </div>
 <style>
@@ -17,10 +16,12 @@
   background-color: #555;
   height: 60px;
   width: 100%;
+  position: fixed;
+  opacity: .85;
 }
 table {
-    height: 100%;
-    color: white;
+  height: 100%;
+  color: white;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   width: 100%;
   text-align: center;
@@ -42,7 +43,8 @@ table {
 .menu {
   display: none;
   position: absolute;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
   z-index: 1;
   background-color: #777;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -53,7 +55,7 @@ table {
 }
 .menu-wrapper {
   position: relative;
-  width:15%;
+  width:33%;
 }
 .menu-wrapper:hover .menu {
   display: block;
