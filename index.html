@@ -30,12 +30,12 @@
     </div>
 
     <div class="demo-gap-dark">
-        <div class="container">
+        <div class="demo-table-clear-short">
               <div class="demo-table-cell">
                 <h1>Will Pike</h1>
               </div>
               <div class="demo-table-cell">
-                I am a designer looking for opporunities <br>to <i>create</i> and <i>collaborate</i>!
+                I am a designer looking for opporunities <br>to <i style="color:#ffe696;">create</i> and <i style="color:#ffe696;">collaborate</i>!
               </div>
         </div>
     </div>
@@ -51,7 +51,7 @@
       </div>
       <div class="demo-gap-dark">
             <div class="container">
-                <div class="demo-table-cell" style="width: 20%;"><img class="thumbnail-link" src="photos/app/sled.jpg" style="width: 80%;" alt=""><br>weight sled</div>
+                <div class="demo-table-cell" style="width: 20%;"><a href="sled.html"><img class="thumbnail-link" src="photos/app/sled.jpg" style="width: 80%;" alt=""></a><br>weight sled</div>
                 <div class="demo-table-cell" style="width: 20%;"><img class="thumbnail-link" src="photos/app/coaster.jpg" style="width: 80%;" alt=""><br>coastrivet</div>
                 <div class="demo-table-cell" style="width: 20%;"><img class="thumbnail-link" src="photos/app/lamp.jpg" style="width: 80%;" alt=""><br>tilt lamp</div>
             </div><br>
@@ -111,8 +111,12 @@
 </html>
 
 <style>
+.thumbnail-link{
+  -webkit-transition: transform 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: transform 0.2s;
+}
 .thumbnail-link:hover {
-  width: 90%;
+  transform: scale(1.075);
 }
 .icon {
   height: 1.2em;

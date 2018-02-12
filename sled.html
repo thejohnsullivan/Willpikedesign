@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="jarallax.css" rel="stylesheet" type="text/css">
+   <link href="main.css" rel="stylesheet" type="text/text/css">
+   <script src="https://unpkg.com/object-fit-images/dist/ofi.min.js"></script>
+   <script src="jarallax.js"></script>
+   <script src="jarallax-video.js"></script>
+   <script src="jarallax-element.js"></script>
+</head>
+
+<html>
+
+<body style="margin: 0px; background-color:#fff; min-width:1200px;">
+<script src="header.js"></script>
+
+
+  <div class="jarallax">
+    <img class="jarallax-img" src="photos/sled/WillPike_Portfoliov23.jpg" alt="">
+  </div>
+  <div class="jarallax">
+    <img class="jarallax-img" src="photos/sled/WillPike_Portfoliov24.jpg" alt="">
+  </div>
+  <div class="jarallax">
+    <img class="jarallax-img" src="photos/sled/WillPike_Portfoliov25.jpg" alt="">
+  </div>
+  <div class="jarallax">
+    <img class="jarallax-img" src="photos/sled/WillPike_Portfoliov26.jpg" alt="">
+  </div>
+  <div class="jarallax">
+    <img class="jarallax-img" src="photos/sled/WillPike_Portfoliov27.jpg" alt="">
+  </div>
+  <div class="jarallax">
+    <img class="jarallax-img" src="photos/sled/WillPike_Portfoliov28.jpg" alt="">
+  </div>
+  <div class="jarallax">
+    <img class="jarallax-img" src="photos/sled/WillPike_Portfoliov29.jpg" alt="">
+  </div>
+  <div class="jarallax">
+    <img class="jarallax-img" src="photos/sled/WillPike_Portfoliov210.jpg" alt="">
+  </div>
+
+</body>
+</html>
+
+<style>
+.thumbnail-link{
+  -webkit-transition: transform 0.2s; /* For Safari 3.1 to 6.0 */
+    transition: transform 0.2s;
+}
+.thumbnail-link:hover {
+  transform: scale(1.075);
+}
+.icon {
+  height: 1.2em;
+}
+.title-boxed {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  text-align: left;
+  padding: 3px;
+  display: inline-block;
+  margin-left: 1.5em;
+}
+.subtext {
+  font-size: 0.75em;
+  padding-left: 3.5em;
+  font-style: italic;
+}
+.date-right{
+  display: inline-block;
+  float: right;
+  margin-right: 3em;
+}
+</style>
+
+<script type="text/javascript">
+        // object-fit polyfill run
+        objectFitImages();
+        /* init Jarallax */
+        jarallax(document.querySelectorAll('.jarallax'));
+        jarallax(document.querySelectorAll('.jarallax-keep-img'), {
+            keepImg: true,
+        });
+</script>

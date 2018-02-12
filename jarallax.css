@@ -101,6 +101,11 @@ a:hover, a:focus {
     height: 600px;
     color: #fff;
 }
+.demo-table-clear-short {
+    display: table;
+    width: 100%;
+    color: #fff;
+}
 .demo-table-cell {
     display: table-cell;
     text-align: center;
@@ -116,6 +121,12 @@ a:hover, a:focus {
   overflow: hidden;
   background-color: #d3d3d3;
   color: #fff;
+}
+.demo-gap-light {
+  padding: 50px;
+  overflow: hidden;
+  background-color: #fffefc;
+  color: #000;
 }
 .demo-gap h1,
 .demo-gap h2,

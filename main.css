@@ -82,6 +82,11 @@ a:hover, a:focus {
     background-color: rgba(39, 35, 51, 0.6);
     color: #fff;
 }
+.demo-table-short {
+    display: table;
+    width: 100%;
+    color: #fff;
+}
 .demo-table-cell {
     display: table-cell;
     text-align: center;
