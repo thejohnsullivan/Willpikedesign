@@ -6,7 +6,11 @@ document.write('\
   <div class="button"><b>projects</b></div>\
   <div class="menu">\
   <a class="menu-link" href="sled.html">weight sled</a>\
-  <a class="menu-link" href="#">coasters</a>\
+  <a class="menu-link" href="coaster.html">coastrivet</a>\
+  <a class="menu-link" href="lamp.html">tilt lamp</a>\
+  <a class="menu-link" href="app.html">trail seeker</a>\
+  <a class="menu-link" href="brewer.html">brew better</a>\
+  <a class="menu-link" href="other.html">other work</a>\
   </div>\
 </td>\
 <td style="width:25%;"><div class="button"><b><a href="aboutme.html">about</a></b></div></td>\
