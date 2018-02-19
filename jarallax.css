@@ -2,12 +2,27 @@
     position: relative;
     z-index: 0;
 }
+.jarallax-static {
+    position: relative;
+    z-index: 0;
+}
 .jarallax > .jarallax-img {
     position: absolute;
     object-fit: cover;
     top: 0;
     left: 0;
     width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.jarallax-img-static {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    width: 80%;
     height: 100%;
     z-index: -1;
 }
@@ -43,6 +58,7 @@ body {
 }
 h1 {
     font-size: 50px;
+    font-weight: 100;
 }
 h2 {
     font-size: 30px;
@@ -68,6 +84,8 @@ a:hover, a:focus {
 }
 .jarallax {
     min-height: 600px;
+}
+.jarallax-static {
 }
 .jarallax-keep-img.demo-float-left {
     margin-right: 15px;
@@ -119,7 +137,7 @@ a:hover, a:focus {
 .demo-gap-dark {
   padding: 50px;
   overflow: hidden;
-  background-color: #d3d3d3;
+  background-color: #c1c1c1;
   color: #fff;
 }
 .demo-gap-light {
